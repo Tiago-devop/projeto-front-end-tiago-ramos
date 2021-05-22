@@ -70,10 +70,62 @@ function User() {
               </button>
             </div>
             <div className="modal-body">
-              <Link to="#">
-                <i className="material-icons"> av_timer </i>
-                Dashboard
-              </Link>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> av_timer </i>
+                    Dashboard
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> content_paste </i>
+                    Atendimentos (108)
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> alarm_on </i>
+                    Reparos (42)
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> directions_car </i>
+                    Carros Reserva (56)
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> build </i>
+                    Oficinas (42)
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> people </i>
+                    Usuários (42)
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> folder_shared </i>
+                    Grupos (8)
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> folder_special </i>
+                    Permissões (4)
+                  </Link>
+                </li>
+                <li class="list-group-item">
+                  <Link className="modal--link" to="#">
+                    <i className="material-icons"> settings </i>
+                    Configurações
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
