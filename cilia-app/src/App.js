@@ -1,11 +1,16 @@
 import "../src/style/App.scss";
 import User from "./components/User";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <User />
-    </div>
+    <>
+      <div className="App">
+        <Router>
+          <Route exact path="/" component={User} />
+        </Router>
+      </div>
+    </>
   );
 }
 
