@@ -1,9 +1,56 @@
 @import "../style/variables.scss";
 
-.navbar {
-  background-color: var(--background-blue-color);
+button.btn.btn-primary {
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  border: unset;
+  background: unset;
+  font: unset;
+  color: unset;
+  cursor: pointer;
 
-  ul {
-    color: #fff;
+  i {
+    color: var(--text-white-color);
   }
+}
+
+div.dropdown {
+  background-color: var(--background-blue-color);
+  width: 1280px;
+  height: 60px;
+}
+
+i.material-icons {
+  color: var(--text-blue-color);
+  margin: 0;
+}
+
+.blue--logo {
+  margin-left: 1.4rem;
+}
+
+.modal-content {
+  left: -13.9rem;
+  width: 280px;
+  height: 800px;
+}
+
+.modal--link {
+  display: flex;
+
+  p {
+    color: var(--text-blue-color);
+    margin-left: 0.625rem;
+    font-size: 14;
+  }
+}
+
+.modal-open .modal {
+  display: flex !important;
+}
+
+.color-link,
+.color-link i {
+  color: var(--text-white-color);
 }
