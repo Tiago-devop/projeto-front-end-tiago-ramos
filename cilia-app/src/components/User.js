@@ -7,8 +7,8 @@ import LogoColor from "../assets/images/logo_color.svg";
 function User() {
   return (
     <>
-      <header>
-        <div className="dropdown">
+      <header className="header-content">
+        <div className="modal--main">
           {/* Button trigger modal */}
           <button
             type="button"
@@ -106,25 +106,25 @@ function User() {
         </div>
 
         <div className="help-links">
-          <div className="links">
-            <Link className="color-link">
-              <i className="material-icons">help</i>
-              Ajuda
-            </Link>
-            <Link className="color-link">
-              <i className="material-icons">chat</i>
-              Suporte via Chat
-            </Link>
-            <Link className="color-link">
-              Diego • Auto/RE - TESTE Administrador
-              <i className="material-icons">account_circle</i>
-              <i className="material-icons">home</i>
-            </Link>
-          </div>
+          <Link className="color-link" to="#">
+            <i className="material-icons">help</i>
+            Ajuda
+          </Link>
+          <div className="line"></div>
+          <Link className="color-link" to="#">
+            <i className="material-icons">chat</i>
+            Suporte via Chat
+          </Link>
+          <div className="line"></div>
+          <Link className="color-link" to="#">
+            Diego • Auto/RE - TESTE Administrador
+            <i className="material-icons user-login">account_circle</i>
+            <i className="material-icons">home</i>
+          </Link>
+          <Link className="color-link user-login" to="#">
+            <i className="material-icons md-18">keyboard_arrow_down </i>
+          </Link>
         </div>
-        <nav className="navbar">
-          <div className="nav"></div>
-        </nav>
       </header>
     </>
   );
