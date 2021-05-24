@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./User.scss";
+
 import Logo from "../assets/images/logo.svg";
 import LogoColor from "../assets/images/logo_color.svg";
+import Automakers from "./Automakers";
 
 function User() {
   return (
@@ -119,6 +121,8 @@ function User() {
           <div></div>
         </div>
       </header>
+
+      <Automakers />
     </>
   );
 }
