@@ -1,0 +1,28 @@
+@import "../style/variables.scss";
+
+.automakers {
+  border: 3px solid var(--color-border);
+  border-radius: 2px;
+  margin: 15px;
+}
+
+.automakers-title {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-white-color);
+  height: 50px;
+  color: var(--text-black-color);
+
+  span {
+    font-size: 24px;
+    margin-left: 16px;
+    color: var(--text-blue-color);
+  }
+
+  div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--text-black-color);
+    margin-left: 6px;
+  }
+}

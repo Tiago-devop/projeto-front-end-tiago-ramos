@@ -34,6 +34,12 @@ const options = {
   colors: ["#ED3237"],
 
   yAxis: {
+    labels: {
+      formatter: function () {
+        return this.value + " %";
+      },
+    },
+
     title: {
       text: "",
     },
@@ -57,7 +63,7 @@ const options = {
   series: [
     {
       name: "Percent",
-      data: [100, 200, 30, 100, 30, 50, 100, 200, 300, 50],
+      data: [3, 5, 12, 19, 8, 11, 9, 10, 7, 5],
       // zones: [{ color: "black" }],
     },
   ],
@@ -66,7 +72,11 @@ const options = {
 class Automakers extends Component {
   render() {
     return (
-      <div className="Automakers">
+      <div className="automakers">
+        <div className="automakers-title">
+          <span className="material-icons">build</span>
+          <div>MONTADORAS</div>
+        </div>
         <HighchartsReact highcharts={Highcharts} options={options} />
       </div>
     );
