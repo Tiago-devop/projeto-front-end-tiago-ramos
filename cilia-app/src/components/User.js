@@ -106,24 +106,17 @@ function User() {
         </div>
 
         <div className="help-links">
-          <Link className="color-link" to="#">
+          <div>
             <i className="material-icons">help</i>
             Ajuda
-          </Link>
+          </div>
           <div className="line"></div>
-          <Link className="color-link" to="#">
+          <div>
             <i className="material-icons">chat</i>
             Suporte via Chat
-          </Link>
+          </div>
           <div className="line"></div>
-          <Link className="color-link" to="#">
-            Diego • Auto/RE - TESTE Administrador
-            <i className="material-icons user-login">account_circle</i>
-            <i className="material-icons">home</i>
-          </Link>
-          <Link className="color-link user-login" to="#">
-            <i className="material-icons md-18">keyboard_arrow_down </i>
-          </Link>
+          <div></div>
         </div>
       </header>
     </>
