@@ -5,6 +5,7 @@ import "./User.scss";
 import Logo from "../assets/images/logo.svg";
 import LogoColor from "../assets/images/logo_color.svg";
 import Automakers from "./Automakers";
+import Vehicle from "./Vehicle";
 
 function User() {
   return (
@@ -123,6 +124,7 @@ function User() {
       </header>
 
       <Automakers />
+      <Vehicle />
     </>
   );
 }
