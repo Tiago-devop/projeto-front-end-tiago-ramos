@@ -6,6 +6,7 @@ import Logo from "../assets/images/logo.svg";
 import LogoColor from "../assets/images/logo_color.svg";
 import Automakers from "./Automakers";
 import Vehicle from "./Vehicle";
+import Mymap from "./Map";
 
 function User() {
   return (
@@ -125,6 +126,7 @@ function User() {
 
       <Automakers />
       <Vehicle />
+      <Mymap />
     </>
   );
 }
