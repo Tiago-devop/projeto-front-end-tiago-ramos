@@ -1,33 +1,31 @@
 import React from "react";
 import "./Vehicle.scss";
 
-// import LogoVW from "../assets/images/logo_vw.svg";
+import LogoVW from "../assets/images/logo_vw.svg";
 
 const Vehicle = () => {
   return (
-    <div className="vehicle-list">
-      {/* <ul className="list-group">
-        <div className="list-group-item vehicle-title">
-          <span className="material-icons">directions_car</span>
-          <div>VEÍCULO</div>
-        </div>
-        <li className="list-group-item">
-          <img src={LogoVW} alt="logo VW" />
-          <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
-        </li>
-        <li className="list-group-item bg-gray">
-          <img src={LogoVW} alt="logo VW" />
-          <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
-        </li>
-        <li className="list-group-item">
-          <img src={LogoVW} alt="logo VW" />
-          <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
-        </li>
-        <li className="list-group-item bg-gray">
-          <img src={LogoVW} alt="logo VW" />
-          <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
-        </li>
-      </ul> */}
+    <div className="vehicle--container">
+      <div className="container--group title--vehicle">
+        <span className="material-icons directions-car">directions_car</span>
+        <div>VEÍCULO</div>
+      </div>
+      <div className="container--group">
+        <img src={LogoVW} alt="logo VW" />
+        <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
+      </div>
+      <div className="container--group">
+        <img src={LogoVW} alt="logo VW" />
+        <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
+      </div>
+      <div className="container--group">
+        <img src={LogoVW} alt="logo VW" />
+        <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
+      </div>
+      <div className="container--group">
+        <img src={LogoVW} alt="logo VW" />
+        <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
+      </div>
     </div>
   );
 };
