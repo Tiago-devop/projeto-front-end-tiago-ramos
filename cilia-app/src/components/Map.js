@@ -2,6 +2,7 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import gooIcon from "../assets/images/icons8-google-maps.svg";
+import "./Map.scss";
 
 const Mymap = () => {
   const myIcon = new L.Icon({
@@ -15,17 +16,23 @@ const Mymap = () => {
 
   return (
     <>
-      <MapContainer
-        style={{ height: "401px", width: "501px" }}
-        center={position}
-        zoom={12}
-        scrollWheelZoom={false}
-      >
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"></TileLayer>
-        <Marker position={position} icon={myIcon}>
-          <Popup>this is a custom map marker.</Popup>
-        </Marker>
-      </MapContainer>
+      <div className="map--container">
+        <div className="map--container-title">
+          <span className="material-icons map-title--icon">room</span>
+          <p>Localização</p>
+        </div>
+        <MapContainer
+          style={{ height: "270px", width: "620px" }}
+          center={position}
+          zoom={12}
+          scrollWheelZoom={false}
+        >
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"></TileLayer>
+          <Marker position={position} icon={myIcon}>
+            <Popup>Vaca Brava.</Popup>
+          </Marker>
+        </MapContainer>
+      </div>
     </>
   );
 };
