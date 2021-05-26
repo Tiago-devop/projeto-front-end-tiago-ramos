@@ -10,19 +10,19 @@ const Vehicle = () => {
         <span className="material-icons directions-car">directions_car</span>
         <div>VEÍCULO</div>
       </div>
-      <div className="container--group">
+      <div className="container--group cars--unit">
         <img src={LogoVW} alt="logo VW" />
         <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
       </div>
-      <div className="container--group">
+      <div className="container--group cars--unit bg--gray">
         <img src={LogoVW} alt="logo VW" />
         <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
       </div>
-      <div className="container--group">
+      <div className="container--group cars--unit">
         <img src={LogoVW} alt="logo VW" />
         <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
       </div>
-      <div className="container--group">
+      <div className="container--group cars--unit bg--gray">
         <img src={LogoVW} alt="logo VW" />
         <p>VOLKSWAGEN POLO (2018) COMFORTLINE 200 TSI 1.0 TSI 2018</p>
       </div>
