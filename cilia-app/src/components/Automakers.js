@@ -5,6 +5,8 @@ import "./Automakers.scss";
 
 const options = {
   chart: {
+    height: 320,
+    // width: 1250,
     type: "area",
   },
 
@@ -12,7 +14,7 @@ const options = {
     rules: [
       {
         condition: {
-          maxWidth: 2040,
+          maxWidth: 2050,
         },
 
         // need to be changed, without responsive rules.

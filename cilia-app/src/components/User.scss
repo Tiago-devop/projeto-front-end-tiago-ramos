@@ -1,8 +1,14 @@
 @import "../style/variables.scss";
 
+.display--content {
+  background-color: var(--background-gray-color);
+  width: 1280px;
+  height: 800px;
+}
+
 .header-content {
   background-color: var(--background-blue-color);
-  // width: 1280px;
+  width: 1280px;
   height: 60px;
 
   display: flex;
