@@ -25,7 +25,7 @@ const Mymap = () => {
           style={{ height: "270px", width: "620px" }}
           center={position}
           zoom={12}
-          scrollWheelZoom={false}
+          scrollWheelZoom={true}
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"></TileLayer>
           <Marker position={position} icon={myIcon}>

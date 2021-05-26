@@ -6,7 +6,6 @@ import "./Automakers.scss";
 const options = {
   chart: {
     height: 320,
-    // width: 1250,
     type: "area",
   },
 
@@ -66,7 +65,6 @@ const options = {
     {
       name: "Percent",
       data: [3, 5, 12, 19, 8, 11, 9, 10, 7, 5],
-      // zones: [{ color: "black" }],
     },
   ],
 };

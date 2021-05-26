@@ -2,7 +2,7 @@ import "../src/style/App.scss";
 import User from "./components/User";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <>
       <div className="app">
@@ -12,6 +12,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;
