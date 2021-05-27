@@ -55,10 +55,15 @@ i.material-icons {
   margin-left: 1.4rem;
 }
 
-.modal-content {
-  left: -13.9rem;
-  width: 280px;
-  height: 800px;
+.modal {
+  position: absolute;
+  top: -90px;
+  right: 520px;
+  bottom: 55px;
+  left: -520px;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
 }
 
 .modal--link {
@@ -77,6 +82,7 @@ i.material-icons {
 
 .help-links {
   display: flex;
+  align-items: center;
 
   .line {
     background-color: #000000;
@@ -86,4 +92,58 @@ i.material-icons {
     margin-left: 15px;
     margin-right: 15px;
   }
+}
+
+.help--links-color {
+  margin-right: 10px !important;
+  color: var(--text-black-color) !important;
+  font-size: 24px;
+}
+
+.help--links-item {
+  display: flex;
+  align-items: center;
+}
+
+.help--links-item p {
+  margin: 0px;
+  color: var(--text-white-color);
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+// icon right
+
+.dropdown--button {
+  background-color: unset;
+  display: flex;
+}
+
+.user--name-right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  letter-spacing: -0.46px;
+  text-align: right;
+
+  p {
+    margin: 0px;
+  }
+}
+
+div.menu-right {
+  display: flex;
+  align-items: center;
+  .icons--styles {
+    color: white;
+    font-size: 36px;
+  }
+}
+
+.btn-secondary {
+  border-color: var(--background-blue-color);
 }

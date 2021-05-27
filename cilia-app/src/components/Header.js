@@ -107,17 +107,52 @@ const Header = () => {
         </div>
 
         <div className="help-links">
-          <div>
-            <i className="material-icons">help</i>
-            Ajuda
-          </div>
+          <Link className="help--links-item" to="#">
+            <i className="material-icons help--links-color">help</i>
+            <p>Ajuda</p>
+          </Link>
           <div className="line"></div>
-          <div>
-            <i className="material-icons">chat</i>
-            Suporte via Chat
-          </div>
+          <Link className="help--links-item" to="#">
+            <i className="material-icons help--links-color">chat</i>
+            <p>Suporte via Chat</p>
+          </Link>
           <div className="line"></div>
-          <div></div>
+
+          {/* second modal */}
+          <div>
+            <div className="dropdown show">
+              <Link
+                className="btn btn-secondary dropdown-toggle dropdown--button"
+                to="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <div className="user--name-right">
+                  <p>Diego • Auto/RE - TESTE</p>
+                  <p>Administrador</p>
+                </div>
+                <div className="menu-right">
+                  <i className="material-icons icons--styles">account_circle</i>
+                  <i className="material-icons icons--styles">home</i>
+                </div>
+              </Link>
+
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <Link className="dropdown-item" to="#">
+                  Meu Perfil
+                </Link>
+                <Link className="dropdown-item" to="#">
+                  Configurações
+                </Link>
+                <Link className="dropdown-item" to="#">
+                  Sair
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
     </>
