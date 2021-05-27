@@ -5,7 +5,7 @@ import "./Automakers.scss";
 
 const options = {
   chart: {
-    height: 320,
+    height: 270,
     type: "area",
   },
 

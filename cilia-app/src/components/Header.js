@@ -135,8 +135,14 @@ const Header = () => {
                   <p>Administrador</p>
                 </div>
                 <div className="menu-right">
-                  <i className="material-icons icons--styles">account_circle</i>
-                  <i className="material-icons icons--styles">home</i>
+                  <div className="account--circle-back">
+                    <i className="material-icons icons--styles">
+                      account_circle
+                    </i>
+                  </div>
+                  <div className="home--circle-back">
+                    <i className="material-icons icons--styles home--icon">home</i>
+                  </div>
                 </div>
               </Link>
 
@@ -155,6 +161,11 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <div className="nav--content">
+        <p>INÍCIO</p>
+        <span className="material-icons">keyboard_arrow_right</span>
+        <p>Página Teste</p>
+      </div>
     </>
   );
 };
