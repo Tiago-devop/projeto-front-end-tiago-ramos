@@ -141,7 +141,9 @@ const Header = () => {
                     </i>
                   </div>
                   <div className="home--circle-back">
-                    <i className="material-icons icons--styles home--icon">home</i>
+                    <i className="material-icons icons--styles home--icon">
+                      home
+                    </i>
                   </div>
                 </div>
               </Link>

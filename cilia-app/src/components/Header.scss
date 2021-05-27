@@ -36,12 +36,6 @@ button.btn.btn-secondary {
   }
 }
 
-// .show > .btn-secondary.dropdown-toggle {
-//   color: unset;
-//   background-color: unset;
-//   border: unset;
-// }
-
 .btn-secondary:focus {
   box-shadow: unset;
 }
@@ -57,10 +51,10 @@ i.material-icons {
 
 .modal {
   position: absolute;
-  top: -90px;
-  right: 520px;
-  bottom: 55px;
-  left: -520px;
+  top: 0px;
+  bottom: 0px;
+  left: -498px;
+  right: 498px;
   z-index: 10040;
   overflow: auto;
   overflow-y: auto;
@@ -68,10 +62,10 @@ i.material-icons {
 
 .modal--link {
   display: flex;
+  align-items: center;
 
   p {
     color: var(--text-blue-color);
-    margin-left: 0.625rem;
     font-size: 14px;
   }
 }
@@ -212,5 +206,58 @@ div.menu-right {
   .icons--styles.home--icon {
     color: var(--text-blue-color);
     font-size: 24px;
+  }
+}
+
+.modal-content {
+  width: 280px;
+  height: 800px;
+}
+
+div.modal-header {
+  padding: 0px;
+
+  img.blue--logo {
+    margin: 33px 0px 33px 30px;
+  }
+}
+
+div.modal-body {
+  padding: 0px;
+
+  ul.list-group.list-group-flush {
+    display: flex;
+    align-items: center;
+  }
+
+  li.list-group-item {
+    display: flex;
+    align-items: center;
+
+    width: 230px;
+    height: 50px;
+
+    padding: 0px;
+    margin: 0px;
+
+    p {
+      line-height: 17px;
+      margin: 0px 0px 0px 10px;
+    }
+  }
+}
+
+a.dropdown-item:last-child {
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+
+  i {
+    color: var(--hover-color);
+  }
+  p {
+    color: var(--hover-color);
   }
 }
