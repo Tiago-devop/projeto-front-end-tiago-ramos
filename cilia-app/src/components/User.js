@@ -9,17 +9,6 @@ import Header from "./Header";
 const User = () => {
   return (
     <>
-      {/* <div className="display--content">
-        <Header />
-        <Automakers />
-        <div style={{ float: "left" }}>
-          <Vehicle />
-        </div>
-        <div style={{ float: "right" }}>
-          <Mymap />
-        </div>
-      </div> */}
-
       <div className="display--content">
         <Header />
         <Automakers />
