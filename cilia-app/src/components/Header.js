@@ -131,8 +131,8 @@ const Header = () => {
                 aria-expanded="false"
               >
                 <div className="user--name-right">
-                  <p>Diego • Auto/RE - TESTE</p>
-                  <p>Administrador</p>
+                  <p className="user--right-text">Diego • Auto/RE - TESTE</p>
+                  <p className="user--right-text">Administrador</p>
                 </div>
                 <div className="menu-right">
                   <div className="account--circle-back">
@@ -148,7 +148,10 @@ const Header = () => {
                 </div>
               </Link>
 
-              <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <div
+                className="dropdown-menu dropdown-menu-right"
+                aria-labelledby="dropdownMenuLink"
+              >
                 <Link className="dropdown-item" to="#">
                   Meu Perfil
                 </Link>

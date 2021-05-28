@@ -22,7 +22,8 @@ const Mymap = () => {
           <p>Localização</p>
         </div>
         <MapContainer
-          style={{ height: "270px", width: "620px" }}
+          className="map--size--leaflet"
+          style={{ /* height: "270px" *//* , width: "620px" */ }}
           center={position}
           zoom={12}
           scrollWheelZoom={true}
